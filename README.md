@@ -7,7 +7,7 @@ In this project I have built a machine learning model based on neural networks t
  class (frauds) account for 0.172% of all transactions\.
 
  It contains only numerical input variables which are the result of a PCA transformation,in order to preserve the confidentiality of the users. Only variables which are not PCA transformed are 'Time' and 'Amount'.\
- link to dataset :https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud\
+ link to dataset :https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ### Methodology Used:
   The dataset is divided into 60% Training Set and 40% Test Set\
@@ -20,7 +20,7 @@ In this project I have built a machine learning model based on neural networks t
    layer 3: units=1 activation= sigmoid\
    Optimizer : Adam Optimizer, rate=0.0018\
    No of Epochs: 13\
-   Threshold Value for Binary Classification : 0.8\
+   Threshold Value for Binary Classification : 0.8
 ### Evaluation Metrics:
   F1 score for orignal Training Set : 0.8164\
-  F1 score for Test Set             : 0.8121\
+  F1 score for Test Set             : 0.8121
