@@ -16,7 +16,7 @@ In this project I have built a machine learning model based on neural networks t
    oversampling rate=0.27
    undersampling rate=0.5
   The SMOTE transformed dataset is used to train a Neural Network.Neural Network architecture and hyperparameters are:
-   layer 1: units=16 activation= ReLU
+   layer 1: units=16 activation= ReLU 
    layer 2: units=32 activation= ReLU
    layer 3: units=1 activation= sigmoid
    Optimizer : Adam Optimizer, rate=0.0018
